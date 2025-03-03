@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PatelEduVerse - Your Gateway to Research Papers and Books">
+    <meta name="keywords" content="Education, Research Papers, Books, Learning, School Resources">
+    <meta name="author" content="Bharat Kumar Patel">
+    
+    <title>PatelEduVerse | Research Papers & Books</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Particles.js for background animation -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Header Section -->
+    <header>
+        <h1 class="gradient-text">Welcome to <span class="brand-name">PatelEduVerse</span></h1>
+        <p>Your Gateway to Research Papers & Novels</p>
+        <nav>
+            <a href="#" aria-label="Go to Home">Home</a>
+            <a href="#about" aria-label="Learn more About us">About</a>
+            <a href="#contact" aria-label="Contact Us">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="product">
+            <img src="images/homo-sapiens.jpg" loading="lazy" alt="Cover of 'Homo Sapiens' by Yuval Noah Harari">
+            <h2>Homo Sapiens</h2>
+            <p>A Brief History of Humankind by Yuval Noah Harari.</p>
+            <button class="button" aria-label="Learn more about Homo Sapiens">Learn More</button>
+        </div>
+
+        <div class="product">
+            <img src="images/book2.webp" loading="lazy" alt="Book 2 Cover">
+            <h2>Book Title 2</h2>
+            <p>Short description of the book.</p>
+            <button class="button" aria-label="Learn more about Book 2">Learn More</button>
+        </div>
+
+        <div class="product">
+            <img src="images/book3.webp" loading="lazy" alt="Book 3 Cover">
+            <h2>Book Title 3</h2>
+            <p>Short description of the book.</p>
+            <button class="button" aria-label="Learn more about Book 3">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/your-email" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required autocomplete="name">
+            <input type="email" name="email" placeholder="Your Email" required autocomplete="email">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 PatelEduVerse | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
